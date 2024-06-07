@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+*{
+    font-family: 'roboto';
+}
+
+main {
+    display: flex;
+    display: grid;
+    grid-column: 1/3;
+    grid-row: 1/2;
+} 
+
+.img {
+    background-image: url(IMG/Group\ 9.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.container-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-left: 50px;
+}
+
+.container-titulo .titulo {
+    margin-left: -10px;
+    font-weight: 900;
+    font-size: 20px;
+    width: 290px;
+    height: 50px;
+}
+
+.container-titulo .subtitulo {
+    margin-top: 11px;
+    font-weight: 400;
+    font-size: 15px;
+    width: 300px;
+    height: 55px;
+}
+
+
+.container-form {
+    grid-area: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.formulario {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: #fff;
+    margin-right: 75px;
+    width: 340px;
+    height: 400px;
+}
+
+.container-form .formulario .campo, .btn {
+    font-size: 18px;
+    margin-top: 15px;
+    padding: 0px;
+}
+
+.formulario .info {
+    margin-left: 15px;
+    text-align: left;
+    flex-basis: 100%;
+}
+
+.campo {
+    border-radius: 5px;
+    width: 298px;
+    height: 36px;
+}
+
+.campo-msg {
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 15px;
+    width: 298px;
+    height: 100px;
+    margin-bottom: 0px;
+}
+
+.campo .campo-msg{
+    border: solid 1px;
+}
+
+.btn {
+    border-radius: 5px;
+    width: 298px;
+    height: 40px;
+    background-color: #3CCC87;
+    color: white;
+    margin-bottom: 12px;
+}
+
+.campo-nao-preenchido{
+	border: 1px solid #F52E2E;
+}
+.campo-preenchido{
+    border: 1px solid #00C22B;
+}
+.alertaNome, .alertaEmail, .alertaTel, .alertaMsg, .alertaTexto {
+    display: flex;
+    align-items: start;
+    color: #F52E2E;
+    font-size: 8px;
+    text-align: left;
+}
+.formulario .divNome .divEmail .divTel .divMsg {
+    display: flex;
+    align-items: left;
+}

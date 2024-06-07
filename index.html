@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SRC/reset.css">
+    <link rel="stylesheet" href="SRC/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main class="img">
+        <div class="container-titulo">
+            <h1 class="titulo">FICOU COM DÚVIDA?<br>
+
+                NOS MANDE UMA MENSAGEM!</h1>
+
+            <p class="subtitulo">Caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em
+                contato em menos de 24h.</p>
+        </div>
+
+        <div class="container-form">
+            <form class="formulario">
+                <div class="divNome">
+                    <input class="campo ipt nome" type="text" placeholder="Nome completo *">
+                    <div class="alertaNome"></div>
+                </div>
+
+                <div class="divEmail">
+                    <input class="campo ipt email" type="text" placeholder="Email *">
+                    <div class="alertaEmail"></div>
+                </div>
+                <div class="divTel">
+                <input class="campo ipt tel" type="text" placeholder="Telefone *">
+                <div class="alertaTel"></div>
+            </div>
+                <div class="divMsg">
+                <input class="campo-msg ipt msg" type="text" placeholder="Mensagem *">
+                <div class="alertaMsg"></div>
+            </div>
+
+                <p class="info">*campos obrigatórios</p>
+
+                <button type="submit" class="btn" onclick="submitForm(event)">Enviar</button>
+
+
+            </form>
+
+        </div>
+    </main>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
